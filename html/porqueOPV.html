@@ -9,6 +9,7 @@
 </head>
 
 <body>
+    {{>header}}
     <header class="header-minimal" aria-label="Cabecera principal">
         <div class="container header-content">
             <div class="logo">
@@ -68,33 +69,7 @@
         </div>
     </main>
 
-    <footer class="footer-minimal">
-        <div class="container">
-            <nav class="footer-nav">
-                <a href="../html/terminosYcondiciones.html">Términos</a>
-                <a href="../html/terminosYcondiciones.html">Privacidad</a>
-                <a href="mailto:opvdrywall@gmail.com">Contacto</a>
-            </nav>
-
-            <div class="social-minimal">
-                <a href="https://www.facebook.com/share/1DHx5wUqkY/?mibextid=wwXIfr" target="_blank"
-                    aria-label="Facebook">
-                    <img src="../assets/facebook.png" alt="" class="social-icon">
-                </a>
-                <a href="https://www.tiktok.com/@opv.drywall" target="_blank" aria-label="TikTok">
-                    <img src="../assets/tiktok.png" alt="" class="social-icon">
-                </a>
-                <a href="mailto:opvdrywall@gmail.com" aria-label="Email">
-                    <img src="../assets/gmail.png" alt="" class="social-icon">
-                </a>
-            </div>
-
-            <p class="copyright">
-                © 2021 - 2025 OPV Drywall<br>
-                <small>Todos los derechos reservados</small>
-            </p>
-        </div>
-    </footer>
+{{>footer}}
 
     <script type="module" src="/src/main.js"></script>
 </body>
