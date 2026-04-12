@@ -8,29 +8,7 @@
     <title>Opv Drywall</title>
 </head>
 <body>
-    <header aria-label="Cabecera principal">
-    <div class="navbar container">
-        <div class="logo">
-           
-            
-                <img src="assets/logo_1.png" alt="OPV Drywall - Instalación y Acabado Profesional">
-           
-        </div>
-
-        <nav aria-label="Menú principal">
-            <ul>
-                <li><a href="html/acercaDe.html">Acerca de nosotros</a></li>
-                <li><a href="html/galeria.html">Galería</a></li>
-                <li><a href="html/preguntasFrecuentes.html">Preguntas frecuentes</a></li>
-                <li><a href="html/nuestrosProgramas.html">Nuestros Programas</a></li>
-                <li><a href="html/porqueOpv.html">Por qué OPV Drywall</a></li>
-                <li><a href="html/testimonios.html">Testimonios</a></li>
-                <li><a href="html/formRegistro.html">Registro</a></li>
-                <li><a href="html/contactenos.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+   {{> header}}
 
     <main id="main-content">
         <!-- Quiénes Somos - Misión, Visión y Valores -->
@@ -107,35 +85,7 @@
 </section>
         
     </main>
-<footer>
-    <div class="container">
-        <div class="footer-links">
-            <a href="html/terminosYcondiciones.html">Términos y condiciones</a>
-            <a href="html/terminosYcondiciones.html">Política de privacidad</a>
-            <a href="mailto:opvdrywall@gmail.com">Contacto</a>
-        </div>
-
-        <div class="social">
-            <a href="https://www.facebook.com/share/1DHx5wUqkY/?mibextid=wwXIfr" target="_blank" aria-label="Facebook OPV Drywall">
-                <i class="fab fa-facebook-f"></i>
-                <img src="assets/facebook.png" alt="Facebook" class="icon"/>
-            </a>
-            <a href="https://www.tiktok.com/@opv.drywall" target="_blank" aria-label="TikTok OPV Drywall">
-                <i class="fab fa-tiktok"></i>
-                <img src="assets/tiktok.png" alt="Tiktok" class="icon">
-            </a>
-            <a href="mailto:opvdrywall@gmail.com" aria-label="Correo OPV Drywall">
-                <i class="fas fa-envelope"></i>
-                <img src="assets/gmail.png" alt="Gmail" class="icon"/>
-            </a>
-        </div>
-
-        <p style="margin-top: 40px; font-size: 0.95rem; opacity: 0.9;">
-            © 2021 - 2025 OPV Drywall | Fundada el 8 de marzo de 2021<br>
-            Todos los derechos reservados
-        </p>
-    </div>
-</footer>
+{{>footer}}
     
 </body>
 </html>
