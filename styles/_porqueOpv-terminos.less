@@ -1,3 +1,42 @@
+main.porque {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 30px;
+    background: @blanco;
+
+    > div {
+        margin-bottom: 30px;
+        padding: 25px;
+        background: @blanco;
+        border-radius: @radio-card;
+        box-shadow: 0 8px 25px @sombra-card;
+        transition: @transicion;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 35px @sombra-hover;
+        }
+    }
+
+    h2.por {
+        font-size: 1.4rem;
+        color: @texto;
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+
+    p.res {
+        font-size: 1rem;
+        color: @texto-claro;
+        line-height: 1.7;
+        margin: 0;
+    }
+}
+=======
 // Aporte - Jurgen Lambur - terminos y condiciones - Prueba
 .main-porque {
     padding-top: 100px;
