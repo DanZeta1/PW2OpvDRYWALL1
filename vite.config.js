@@ -16,7 +16,7 @@ export default defineConfig(({ command }) => ({
         formRegistro: 'html/formRegistro.html',
         galeria: 'html/galeria.html',
         nuestrosProgramas: 'html/nuestrosProgramas.html',
-        porqueOpv: 'html/porqueOpv.html',
+        porqueOpv: 'html/porqueOPV.html',
         preguntasFrecuentes: 'html/preguntasFrecuentes.html',
         terminosYcondiciones: 'html/terminosYcondiciones.html',
         testimonios: 'html/testimonios.html',
