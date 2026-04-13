@@ -1,1 +1,15 @@
-import '../styles/main.less';
+//import '../styles/main.less';
+import '../styles/_variables.less';   
+import '../styles/_base.less';        
+import '../styles/_header.less';          
+import '../styles/_footer.less';          
+import '../styles/_hero.less';            
+import '../styles/_cards.less';           
+import '../styles/_galeria.less';         
+import '../styles/_faq.less';             
+import '../styles/_contacto.less';        
+import '../styles/_acerca.less';          
+import '../styles/_programas.less';       
+import '../styles/_registro.less';        
+import '../styles/_porqueOpv-terminos.less'; 
+import '../styles/_responsive.less';
