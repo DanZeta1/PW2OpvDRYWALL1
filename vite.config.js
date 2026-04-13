@@ -1,6 +1,6 @@
 import { defineConfig } from "vite";
 import path, { resolve } from "node:path";
-import { globSync } from "glob"; // <--- CAMBIO AQUÍ
+import * as glob from "glob";
 
 import HtmlCssPurgePlugin from "vite-plugin-purgecss";
 import HandlebarsPlugin from "vite-plugin-handlebars";
@@ -8,7 +8,7 @@ import HandlebarsPlugin from "vite-plugin-handlebars";
 
 function obtenerHtmlFiles() {
     return Object.fromEntries(
-        globSync( // <--- CAMBIO AQUÍ (sin el "glob.")
+        glob.sync(
             './**/*.html',
             {
                 ignore: [
@@ -39,8 +39,9 @@ export default defineConfig({
     },
     plugins: [
         HandlebarsPlugin({
-            // Cambié 'components' por tu carpeta 'partials' para que te funcione
+           
             partialDirectory: resolve(__dirname, 'partials'),
+           
         }),
         HtmlCssPurgePlugin({
             content: [
