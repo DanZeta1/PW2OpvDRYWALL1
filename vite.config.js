@@ -3,7 +3,7 @@ import path, { resolve } from "node:path";
 import { globSync } from "glob"; // <--- CAMBIO AQUÍ
 
 import HtmlCssPurgePlugin from "vite-plugin-purgecss";
-import HandlebarsPlugin from "vite-plugin-handlebars";
+import HandlebarsPlugin from "vite-plugin-handlebars"; 
 
 
 function obtenerHtmlFiles() {
